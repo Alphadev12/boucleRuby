@@ -4,3 +4,11 @@ def signup
     mdp = gets.chomp
     return mdp
 end
+
+def login(mdp)
+    begin
+    puts "Confirmer votre mot de passe"
+    print "> "
+        mdp_confirm = gets.chomp
+    end while mdp != mdp_confirm
+end
