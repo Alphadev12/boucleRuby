@@ -12,3 +12,7 @@ def login(mdp)
         mdp_confirm = gets.chomp
     end while mdp != mdp_confirm
 end
+
+def welcome_screen
+    puts "Bienvenu dans votre zone secrète"
+end
