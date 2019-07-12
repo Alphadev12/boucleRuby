@@ -16,3 +16,13 @@ end
 def welcome_screen
     puts "Bienvenu dans votre zone secrète"
 end
+
+def perform
+    mdp = signup
+
+    login(mdp)
+
+    welcome_screen
+end
+
+perform
