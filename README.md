@@ -9,3 +9,6 @@
 
 # 2.2.2 Pyramide de Gizeh
 	C'est un programme qui demande un nombre n et crée un full-pyramide à n étage
+
+# 2.2.3. Alexandrie, Alexandra
+	C'est un programme qui demande un nombre n et crée un losange à n étage
